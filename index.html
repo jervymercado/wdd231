@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 Course Home Page for Jervy Mercado">
+    <meta name="author" content="Jervy Mercado">
+
+    <title>WDD 231 | Home</title>
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-name">
+        <img src="images/logo.svg" alt="Site Logo" class="logo">
+
+        <span>Jervy Mercado</span>
+
+        <button id="menu" aria-label="Open navigation menu" aria-expanded="false">
+            &#9776;
+        </button>
+    </div>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="final/">Final</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h1>Home</h1>
+
+    <div class="main-grid">
+
+        <section class="card">
+            <h2>About Me</h2>
+
+                <p>
+                    Hello! I'm Jervy Mercado, a Software Development student learning HTML, CSS and JavaScript. This page showcases my coursework for WDD 231. I enjoy learning new technologies and improving my programming skills through hands-on projects.
+                </p>
+                <br>
+                <p>
+                    Outside of coding, I enjoy playing Battlefield and spending time ice skating. My goal is to become a full-stack developer and build applications that are both functional and easy to use. I'm excited to continue growing my skills throughout this course and future projects.
+                </p>
+        </section>
+
+        <section class="card photo">
+            <h2>Student Photo</h2>
+
+            <img src="images/profile.jpg" alt="Photo of Jervy Mercado">
+        </section>
+
+        <section class="card courses">
+
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+
+            <div id="course-container"></div>
+
+            <p class="credits">
+                Total Credits:
+                <span id="total-credits"></span>
+            </p>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+
+    <div class="socials">
+
+        <a href="https://github.com/jervymercado" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="images/github.svg" alt="GitHub">
+        </a>
+
+        <a href="https://www.linkedin.com/in/jervymercado" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="images/linkedin.svg" alt="LinkedIn">
+        </a>
+
+        <a href="https://www.facebook.com/jervy.mercado00" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="images/facebook.svg" alt="Facebook">
+        </a>
+
+    </div>
+
+    <p>
+        &copy; <span id="currentyear"></span>
+        Jervy Mercado | Philippines
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

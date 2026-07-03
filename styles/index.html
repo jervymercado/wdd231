@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Your Name">
+
+    <title>WDD231 | Home</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-name">
+        <img src="images/logo.svg" alt="Site Logo" class="logo">
+        <span>Your Name</span>
+    </div>
+
+    <button id="menu" aria-label="Menu">&#9776;</button>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h1>Home</h1>
+
+    <div class="main-grid">
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm Jervy Mercado and I'm a Software Development student learning HTML,
+                CSS and JavaScript. This page showcases my coursework
+                for WDD 231.
+            </p>
+        </section>
+
+        <section class="card photo">
+            <h2>Student Photo</h2>
+
+            <img src="images/profile.jpg" alt="Student Photo">
+        </section>
+
+        <section class="card courses">
+
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+
+            <div id="course-container"></div>
+
+            <p class="credits">
+                Total Credits:
+                <span id="total-credits"></span>
+            </p>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+
+    <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://facebook.com/" target="_blank">Facebook</a>
+    </div>
+
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        Your Name | Philippines
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

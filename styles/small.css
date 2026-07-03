@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 1rem;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.logo-name span {
+    flex: 1;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#menu:hover {
+    opacity: .8;
+}
+
+nav {
+    display: none;
+    margin-top: 1rem;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: .5rem;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .75rem;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #163956;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.main-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+.card h2 {
+    color: #1f4e79;
+    margin-bottom: .75rem;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 280px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.buttons button {
+    flex: 1;
+    min-width: 120px;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f4e79;
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.buttons button:hover {
+    background-color: #163956;
+}
+
+#course-container {
+    display: grid;
+    gap: .75rem;
+}
+
+.course {
+    background: #ececec;
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.course h3 {
+    margin-bottom: .5rem;
+    color: #1f4e79;
+}
+
+.completed {
+    background-color: #cfeccf;
+    border: 2px solid #2e7d32;
+}
+
+.credits {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socials img {
+    width: 32px;
+    height: 32px;
+    transition: transform .2s;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin: .5rem 0;
+}
