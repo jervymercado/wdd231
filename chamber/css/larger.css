@@ -1,0 +1,60 @@
+/* ==========================================================
+   Enhancements for wider viewports (tablet and up)
+   ========================================================== */
+
+@media (min-width: 40em) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .primary-nav {
+    display: block;
+    flex-basis: auto;
+  }
+
+  .primary-nav ul {
+    flex-direction: row;
+    border-top: none;
+    margin-top: 0;
+    gap: 1.5rem;
+  }
+
+  .primary-nav a {
+    padding: 0.25rem 0;
+    border-bottom: none;
+  }
+
+  .primary-nav a[aria-current="page"] {
+    border-bottom: 2px solid var(--amber);
+  }
+
+  .page-intro h1 {
+    font-size: 2rem;
+  }
+
+  .directory-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-meta {
+    border-top: none;
+    padding-top: 0;
+    text-align: right;
+  }
+}
+
+@media (min-width: 60em) {
+  .directory-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .directory-list.is-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Directory | Quezon City Chamber of Commerce</title>
+  <meta name="description"
+    content="Browse member businesses of the Quezon City Chamber of Commerce, from neighborhood cafes to the city's media and broadcast production houses." />
+  <meta name="author" content="Jervy Mercado" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- Facebook / Open Graph meta -->
+  <meta property="og:title" content="Quezon City Chamber of Commerce - Directory" />
+  <meta property="og:description" content="Browse member businesses of the Quezon City Chamber of Commerce." />
+  <meta property="og:image" content="https://jervymercado.github.io/wdd231/chamber/images/og-chamber-directory.png" />
+  <meta property="og:url" content="https://jervymercado.github.io/wdd231/chamber/directory.html" />
+  <meta property="og:type" content="website" />
+
+  <!-- CSS: normalize first, then small, then larger -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/larger.css" />
+
+  <script src="js/directory.js" defer></script>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-flex">
+      <div class="brand">
+        <img src="images/favicon.png" alt="Quezon City Chamber of Commerce logo" width="40" height="40" />
+        <p class="brand-text">
+          QC Chamber
+          <span>of Commerce</span>
+        </p>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="primaryNav"
+        aria-label="Toggle navigation menu">
+        &#9776;
+      </button>
+
+      <nav class="primary-nav" id="primaryNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" aria-current="page">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h1>Member Directory</h1>
+      <p>Meet the businesses that make up the Quezon City Chamber of Commerce.</p>
+    </section>
+
+    <div class="directory-controls">
+      <p class="member-count" id="memberCount" aria-live="polite">Loading members&hellip;</p>
+      <div class="view-toggle" role="group" aria-label="Choose directory layout">
+        <button id="gridViewBtn" aria-pressed="true">Grid</button>
+        <button id="listViewBtn" aria-pressed="false">List</button>
+      </div>
+    </div>
+
+    <section class="directory-list" id="directoryList" aria-live="polite">
+      <p>Loading member businesses&hellip;</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-flex">
+      <div class="footer-contact">
+        <p><strong>Quezon City Chamber of Commerce</strong></p>
+        <p>Quezon Memorial Circle, Elliptical Rd, Quezon City, Philippines</p>
+        <p>(02) 8925-0000 &bull; info@qcchamber.example.com</p>
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">i</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <p>Jervy Mercado</p>
+        <p>WDD 231 &bull; Web Frontend Development I</p>
+        <p id="lastModified"></p>
+        <p>&copy; <span id="currentYear"></span> Quezon City Chamber of Commerce</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+{
+  "members": [
+    {
+      "name": "Kalye Coffee Roasters",
+      "address": "12 Maginhawa St, Teachers Village, Quezon City",
+      "phone": "(02) 8412-3391",
+      "website": "https://example.com/kalye-coffee",
+      "image": "logo-kalye-coffee.png",
+      "membership": 1,
+      "founded": 2018,
+      "category": "Café & Roastery",
+      "description": "Neighborhood coffee shop roasting single-origin Philippine beans in small batches."
+    },
+    {
+      "name": "Diliman Tech Solutions",
+      "address": "88 Commonwealth Ave, Diliman, Quezon City",
+      "phone": "(02) 8929-4471",
+      "website": "https://example.com/diliman-tech",
+      "image": "logo-diliman-tech.png",
+      "membership": 2,
+      "founded": 2015,
+      "category": "IT Services & Web Development",
+      "description": "Web and mobile app development studio supporting local startups and SMEs."
+    },
+    {
+      "name": "Star City Media Productions",
+      "address": "45 Broadcast Row, Timog Ave, Quezon City",
+      "phone": "(02) 8374-2200",
+      "website": "https://example.com/star-city-media",
+      "image": "logo-star-city-media.png",
+      "membership": 3,
+      "founded": 2009,
+      "category": "Film & Broadcast Production",
+      "description": "Full-service video production house serving the QC broadcast media district."
+    },
+    {
+      "name": "Ever Bloom Florist",
+      "address": "21 Maria Clara St, Quezon City",
+      "phone": "(02) 8567-1189",
+      "website": "https://example.com/ever-bloom",
+      "image": "logo-ever-bloom.png",
+      "membership": 1,
+      "founded": 2020,
+      "category": "Florist & Events",
+      "description": "Fresh floral arrangements and event styling for weddings and celebrations."
+    },
+    {
+      "name": "Sining Bahay Furniture Co.",
+      "address": "9 Kamuning Rd, Quezon City",
+      "phone": "(02) 8712-0056",
+      "website": "https://example.com/sining-bahay",
+      "image": "logo-sining-bahay.png",
+      "membership": 2,
+      "founded": 2011,
+      "category": "Furniture & Woodworking",
+      "description": "Handcrafted, solid-wood furniture built by local artisans."
+    },
+    {
+      "name": "Quezon Memorial Bakeshop",
+      "address": "5 Elliptical Rd, Quezon City",
+      "phone": "(02) 8925-6630",
+      "website": "https://example.com/qc-bakeshop",
+      "image": "logo-quezon-bakeshop.png",
+      "membership": 3,
+      "founded": 2005,
+      "category": "Bakery & Café",
+      "description": "Classic Filipino bakeshop known for ensaymada and pandesal since 2005."
+    },
+    {
+      "name": "Circle Fitness Studio",
+      "address": "33 North Ave, Quezon City",
+      "phone": "(02) 8441-7723",
+      "website": "https://example.com/circle-fitness",
+      "image": "logo-circle-fitness.png",
+      "membership": 1,
+      "founded": 2021,
+      "category": "Gym & Fitness",
+      "description": "Boutique fitness studio offering strength training and group classes."
+    }
+  ]
+}
