@@ -1,20 +1,3 @@
-// ---------- Footer: copyright year + last modified date ----------
-const yearSpan = document.querySelector("#currentYear");
-if (yearSpan) yearSpan.textContent = new Date().getFullYear();
-
-const modifiedSpan = document.querySelector("#lastModified");
-if (modifiedSpan) modifiedSpan.textContent = `Last Updated: ${document.lastModified}`;
-
-// ---------- Mobile nav toggle ----------
-const navToggle = document.querySelector("#navToggle");
-const primaryNav = document.querySelector("#primaryNav");
-
-navToggle.addEventListener("click", () => {
-  const isOpen = primaryNav.classList.toggle("is-open");
-  navToggle.textContent = isOpen ? "\u2715" : "\u2630";
-  navToggle.setAttribute("aria-expanded", isOpen);
-});
-
 // ---------- Member directory ----------
 const directoryList = document.querySelector("#directoryList");
 const memberCountEl = document.querySelector("#memberCount");

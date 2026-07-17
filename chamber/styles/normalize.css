@@ -1,20 +1,10 @@
-*,
-*::before,
-*::after {
+/* Minimal normalize/reset - link this BEFORE any other CSS file */
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-ul,
-ol,
-li {
+html, body, h1, h2, h3, h4, p, figure, ul, ol, li {
   margin: 0;
   padding: 0;
 }
@@ -29,15 +19,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img,
-picture,
-svg {
+img, picture, svg {
   display: block;
   max-width: 100%;
 }
 
-ul,
-ol {
+ul, ol {
   list-style: none;
 }
 
@@ -46,10 +33,7 @@ a {
   color: inherit;
 }
 
-button,
-input,
-select,
-textarea {
+button, input, select, textarea {
   font: inherit;
   color: inherit;
 }
