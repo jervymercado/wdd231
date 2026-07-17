@@ -1,7 +1,3 @@
-/* ==========================================================
-   Enhancements for wider viewports (tablet and up)
-   ========================================================== */
-
 @media (min-width: 40em) {
   .nav-toggle {
     display: none;

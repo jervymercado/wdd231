@@ -1,9 +1,3 @@
-/* ==========================================================
-   Quezon City Chamber of Commerce - base (mobile-first) styles
-   Palette: forest green (civic parks) + amber/gold (broadcast &
-   film district) - this pairing carries the site's whole identity.
-   ========================================================== */
-
 :root {
   --forest: #1b4332;
   --forest-dark: #12302270;
@@ -16,8 +10,8 @@
   --sage: #8fae8b;
   --white: #ffffff;
 
-  --font-display: Georgia, "Times New Roman", serif;
-  --font-body: "Segoe UI", Verdana, Arial, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
 
   --radius: 0.5rem;
   --gap: 1rem;
@@ -29,13 +23,14 @@ body {
   color: var(--ink);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-display);
   color: var(--forest);
   line-height: 1.15;
 }
 
-/* ---------- Header ---------- */
 
 .site-header {
   background-color: var(--forest);
@@ -80,7 +75,6 @@ h1, h2, h3 {
   color: var(--amber);
 }
 
-/* Hamburger toggle (simple text glyph, swapped between \2630 / \2715 in JS) */
 .nav-toggle {
   width: 2.25rem;
   height: 2.25rem;
@@ -116,7 +110,6 @@ h1, h2, h3 {
   color: var(--amber);
 }
 
-/* ---------- Main / hero strip ---------- */
 
 .page-intro {
   padding: 1.5rem 1rem 1rem;
@@ -134,7 +127,6 @@ h1, h2, h3 {
   opacity: 0.85;
 }
 
-/* ---------- View toggle + controls ---------- */
 
 .directory-controls {
   max-width: 70rem;
@@ -171,7 +163,6 @@ h1, h2, h3 {
   opacity: 0.8;
 }
 
-/* ---------- Member cards ---------- */
 
 .directory-list {
   max-width: 70rem;
@@ -279,7 +270,6 @@ h1, h2, h3 {
   border-color: var(--forest);
 }
 
-/* ---------- List view ---------- */
 
 .directory-list.is-list .member-card {
   flex-direction: row;
@@ -289,8 +279,13 @@ h1, h2, h3 {
   border-left: 4px solid var(--sage);
 }
 
-.directory-list.is-list .member-card[data-tier="2"] { border-left-color: var(--amber); }
-.directory-list.is-list .member-card[data-tier="3"] { border-left-color: var(--gold); }
+.directory-list.is-list .member-card[data-tier="2"] {
+  border-left-color: var(--amber);
+}
+
+.directory-list.is-list .member-card[data-tier="3"] {
+  border-left-color: var(--gold);
+}
 
 .directory-list.is-list .member-card .card-top {
   flex: 1 1 14rem;
@@ -304,7 +299,6 @@ h1, h2, h3 {
   display: none;
 }
 
-/* ---------- Footer ---------- */
 
 .site-footer {
   background-color: var(--forest-deep);
@@ -347,7 +341,6 @@ h1, h2, h3 {
   padding-top: 0.75rem;
 }
 
-/* Visually-hidden helper for accessible labels */
 .sr-only {
   position: absolute;
   width: 1px;
