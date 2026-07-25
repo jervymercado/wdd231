@@ -2,7 +2,7 @@
 // Quezon City coordinates
 const LAT = 14.6760;
 const LON = 121.0437;
-const WEATHER_API_KEY = "cda041eb1fdf3d4e3f4292ef84f5f6cd";
+const WEATHER_API_KEY = "YOUR_API_KEY"; // <-- paste your OpenWeatherMap key here
 
 const currentWeatherEl = document.querySelector("#currentWeather");
 const forecastEl = document.querySelector("#weatherForecast");

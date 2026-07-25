@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thank You | Quezon City Chamber of Commerce</title>
+  <meta name="description" content="Thank you for applying for membership with the Quezon City Chamber of Commerce.">
+  <meta name="author" content="Jervy Mercado">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <meta property="og:title" content="Thank You | Quezon City Chamber of Commerce">
+  <meta property="og:description" content="Thank you for applying for membership with the Quezon City Chamber of Commerce.">
+  <meta property="og:image" content="https://jervymercado.github.io/wdd231/chamber/images/og-chamber-directory.png">
+  <meta property="og:url" content="https://jervymercado.github.io/wdd231/chamber/thankyou.html">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/common.js" defer></script>
+  <script src="scripts/thankyou.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-flex">
+      <div class="brand">
+        <img src="images/favicon.png" alt="Quezon City Chamber of Commerce logo" width="40" height="40">
+        <p class="brand-text">
+          QC Chamber
+          <span>of Commerce</span>
+        </p>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+        &#9776;
+      </button>
+
+      <nav class="primary-nav" id="primaryNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html" aria-current="page">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h1>Thank You for Applying!</h1>
+      <p>We've received your membership application and will be in touch soon.</p>
+    </section>
+
+    <section class="thankyou-summary">
+      <h2>Application Summary</h2>
+      <dl id="summaryList">
+        <div class="summary-row">
+          <dt>First Name</dt>
+          <dd id="sumFirstName"></dd>
+        </div>
+        <div class="summary-row">
+          <dt>Last Name</dt>
+          <dd id="sumLastName"></dd>
+        </div>
+        <div class="summary-row">
+          <dt>Email</dt>
+          <dd id="sumEmail"></dd>
+        </div>
+        <div class="summary-row">
+          <dt>Mobile Phone</dt>
+          <dd id="sumPhone"></dd>
+        </div>
+        <div class="summary-row">
+          <dt>Business/Organization</dt>
+          <dd id="sumOrg"></dd>
+        </div>
+        <div class="summary-row">
+          <dt>Submitted On</dt>
+          <dd id="sumTimestamp"></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-flex">
+      <div class="footer-contact">
+        <p><strong>Quezon City Chamber of Commerce</strong></p>
+        <p>Quezon Memorial Circle, Elliptical Rd, Quezon City, Philippines</p>
+        <p>(02) 8925-0000 &bull; info@qcchamber.example.com</p>
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">i</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <p>Jervy Mercado</p>
+        <p>WDD 231 &bull; Web Frontend Development I</p>
+        <p id="lastModified"></p>
+        <p>&copy; <span id="currentYear"></span> Quezon City Chamber of Commerce</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
