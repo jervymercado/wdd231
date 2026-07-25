@@ -87,3 +87,57 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Discover page: medium viewport (641px - 1024px) ---------- */
+@media (min-width: 40.0625em) {
+  .discover-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "a a"
+      "b c"
+      "d e"
+      "f g"
+      "h h";
+  }
+}
+
+/* ---------- Discover page: large viewport (1025px and up) ---------- */
+@media (min-width: 64.0625em) {
+  .discover-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "a a b c"
+      "a a d e"
+      "f g h h";
+  }
+
+  /* The featured card spans two rows - stretch its image to fill that height */
+  .discover-grid .discover-card:nth-of-type(1) {
+    display: grid;
+    grid-template-rows: 1fr auto auto auto;
+  }
+
+  .discover-grid .discover-card:nth-of-type(1) figure {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .discover-grid .discover-card:nth-of-type(1) img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Hover effect on card images - large viewports only, per assignment */
+  .discover-card figure {
+    position: relative;
+  }
+
+  .discover-card img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .discover-card:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+  }
+}
