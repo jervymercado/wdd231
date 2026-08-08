@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Illustration representing community skating events">
+  <rect width="300" height="200" fill="#E8F1F8"/>
+  <circle cx="110" cy="90" r="20" fill="#1B98E0"/>
+  <circle cx="160" cy="70" r="20" fill="#FF7A59"/>
+  <circle cx="200" cy="100" r="20" fill="#0B2545"/>
+  <rect x="80" y="130" width="140" height="8" rx="4" fill="#1B98E0"/>
+  <rect x="80" y="150" width="90" height="8" rx="4" fill="#0B2545" opacity="0.5"/>
+</svg>

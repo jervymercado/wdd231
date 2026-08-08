@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons &amp; Sign-up — Metro Manila Ice Skating Community Hub</title>
+  <meta name="description" content="Sign up for beginner-friendly ice skating lessons and find community skating events in Metro Manila.">
+  <meta name="author" content="Jervy Mercado">
+  <meta property="og:title" content="Lessons & Sign-up — Metro Manila Ice Skating Hub">
+  <meta property="og:description" content="Sign up for lessons and community skating events in Metro Manila.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="brand">
+        <img src="images/favicon.svg" alt="" width="32" height="32">
+        Ice Skating MNL
+      </a>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰ Menu</button>
+    </div>
+    <nav class="main-nav" id="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rinks.html">Rinks &amp; Schedule</a></li>
+        <li><a href="lessons.html">Lessons &amp; Sign-up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Lessons &amp; Community Events</h1>
+      <div class="card-grid cols-2">
+        <div class="card">
+          <img src="images/lessons.svg" alt="Illustration of a beginner skater with a helmet" width="300" height="200" loading="lazy">
+          <h3>Beginner Lessons</h3>
+          <p>Small-group lessons for first-time skaters, taught by rink-certified instructors. No experience needed.</p>
+        </div>
+        <div class="card">
+          <img src="images/events.svg" alt="Illustration representing a group of community skaters" width="300" height="200" loading="lazy">
+          <h3>Community Events</h3>
+          <p>Casual group skate nights held monthly, open to all skill levels — a relaxed way to meet other local skaters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <h2>Sign up for a lesson</h2>
+      <p>Fill out the form below and we'll confirm your slot.</p>
+
+      <form class="stack" action="form-action.html" method="get">
+        <div>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="rink">Preferred rink</label>
+          <select id="rink" name="rink" required>
+            <option value="">Select a rink</option>
+            <option value="Mega Ice Rink">Mega Ice Rink (SM Megamall)</option>
+            <option value="MOA Ice Skating Rink">MOA Ice Skating Rink (SM Mall of Asia)</option>
+            <option value="Skating Central">Skating Central (SM North EDSA)</option>
+          </select>
+        </div>
+        <div>
+          <label for="day">Preferred day</label>
+          <select id="day" name="day" required>
+            <option value="">Select a day</option>
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+          </select>
+        </div>
+        <div>
+          <label for="level">Skill level</label>
+          <select id="level" name="level" required>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Submit sign-up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Metro Manila Ice Skating Community Hub</p>
+    <p><a href="attributions.html">Attributions</a> &middot; <a href="#" target="_blank" rel="noopener">Watch project demo video</a></p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

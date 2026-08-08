@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Illustration representing beginner skating lessons">
+  <rect width="300" height="200" fill="#E8F1F8"/>
+  <circle cx="150" cy="70" r="26" fill="#1B98E0"/>
+  <rect x="120" y="100" width="60" height="60" rx="10" fill="#0B2545"/>
+  <path d="M150 160 L130 190 M150 160 L170 190" stroke="#0B2545" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 175 Q150 150 200 175" stroke="#FF7A59" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

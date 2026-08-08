@@ -1,0 +1,18 @@
+[
+  { "rink": "Mega Ice Rink", "location": "SM Megamall", "day": "Monday", "time": "10:00 AM", "level": "Beginner", "price": 350 },
+  { "rink": "Mega Ice Rink", "location": "SM Megamall", "day": "Monday", "time": "4:00 PM", "level": "Open Skate", "price": 300 },
+  { "rink": "Mega Ice Rink", "location": "SM Megamall", "day": "Wednesday", "time": "2:00 PM", "level": "Intermediate", "price": 400 },
+  { "rink": "Mega Ice Rink", "location": "SM Megamall", "day": "Friday", "time": "6:00 PM", "level": "Open Skate", "price": 320 },
+  { "rink": "Mega Ice Rink", "location": "SM Megamall", "day": "Saturday", "time": "9:00 AM", "level": "Beginner", "price": 350 },
+  { "rink": "MOA Ice Skating Rink", "location": "SM Mall of Asia", "day": "Tuesday", "time": "11:00 AM", "level": "Beginner", "price": 330 },
+  { "rink": "MOA Ice Skating Rink", "location": "SM Mall of Asia", "day": "Thursday", "time": "3:00 PM", "level": "Intermediate", "price": 380 },
+  { "rink": "MOA Ice Skating Rink", "location": "SM Mall of Asia", "day": "Saturday", "time": "1:00 PM", "level": "Open Skate", "price": 300 },
+  { "rink": "MOA Ice Skating Rink", "location": "SM Mall of Asia", "day": "Saturday", "time": "5:00 PM", "level": "Advanced", "price": 420 },
+  { "rink": "MOA Ice Skating Rink", "location": "SM Mall of Asia", "day": "Sunday", "time": "10:00 AM", "level": "Open Skate", "price": 300 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Monday", "time": "5:00 PM", "level": "Open Skate", "price": 310 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Wednesday", "time": "6:30 PM", "level": "Beginner", "price": 340 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Friday", "time": "4:00 PM", "level": "Intermediate", "price": 390 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Saturday", "time": "11:00 AM", "level": "Advanced", "price": 420 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Sunday", "time": "2:00 PM", "level": "Beginner", "price": 340 },
+  { "rink": "Skating Central", "location": "SM North EDSA", "day": "Sunday", "time": "4:00 PM", "level": "Open Skate", "price": 310 }
+]

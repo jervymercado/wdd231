@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rink Schedules &amp; Rates — Metro Manila Ice Skating Community Hub</title>
+  <meta name="description" content="Browse Metro Manila ice rink session times, skill levels, and prices, filterable by level.">
+  <meta name="author" content="Jervy Mercado">
+  <meta property="og:title" content="Rink Schedules & Rates — Metro Manila Ice Skating Hub">
+  <meta property="og:description" content="Session times, skill levels, and prices for rinks across Metro Manila.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="brand">
+        <img src="images/favicon.svg" alt="" width="32" height="32">
+        Ice Skating MNL
+      </a>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰ Menu</button>
+    </div>
+    <nav class="main-nav" id="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rinks.html">Rinks &amp; Schedule</a></li>
+        <li><a href="lessons.html">Lessons &amp; Sign-up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Rink Schedules &amp; Rates</h1>
+      <p>Session times across Metro Manila rinks, loaded live from our schedule data. Filter by skill level — your choice is remembered next time you visit.</p>
+
+      <div class="filters">
+        <div>
+          <label for="level-filter">Filter by level</label>
+          <select id="level-filter">
+            <option value="all">All levels</option>
+          </select>
+        </div>
+      </div>
+
+      <ul id="schedule-list" aria-live="polite">
+        <li>Loading schedule…</li>
+      </ul>
+    </section>
+  </main>
+
+  <dialog id="details-dialog">
+    <h3 id="dialog-title">Session details</h3>
+    <div id="dialog-body"></div>
+    <button type="button" id="dialog-close" class="btn btn-close">Close</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Metro Manila Ice Skating Community Hub</p>
+    <p><a href="attributions.html">Attributions</a> &middot; <a href="#" target="_blank" rel="noopener">Watch project demo video</a></p>
+  </footer>
+
+  <script type="module" src="js/rinks.js"></script>
+</body>
+</html>
